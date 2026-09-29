@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+outputs/
+vault/.obsidian/workspace*.json
+vault/.trash/
+scripts/redactions.local.json

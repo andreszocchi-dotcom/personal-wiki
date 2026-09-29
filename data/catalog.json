@@ -1,0 +1,67 @@
+{
+  "berkeley-haas-resume-standards": {
+    "path": "raw/Berkeley Haas Resume Standards.md",
+    "sha256": "f71090e9d9eae21e",
+    "ingested": "2026-09-28",
+    "model": "gemma4:e4b",
+    "notes": [
+      "Additional Section Hooks",
+      "Bullet Emphasis Order",
+      "Bullet Quality Checklist",
+      "Generative AI Guardrails",
+      "Haas Skill Headings",
+      "Resume Bullet Anatomy",
+      "Resume Format Choices",
+      "Resume Tailoring Levers"
+    ]
+  },
+  "career-inventory": {
+    "path": "raw/Career Inventory.md",
+    "sha256": "0fb9d55a6c105bd4",
+    "ingested": "2026-09-28",
+    "model": "gemma4:e4b",
+    "notes": [
+      "Berkeley Haas MBA",
+      "Certifications and Tools",
+      "Deloitte Workday Program",
+      "Early Career Roles",
+      "Fundaci\u00f3n Juanfe Salesforce Project",
+      "Illinois Gies Undergraduate",
+      "Job Search Tracks",
+      "Languages",
+      "Open Resume Questions",
+      "Product Management Skills",
+      "ServiceNow PM Internship"
+    ]
+  },
+  "master-resume": {
+    "path": "raw/Master Resume.md",
+    "sha256": "b046973754e53cdf",
+    "ingested": "2026-09-28",
+    "model": "gemma4:e4b",
+    "notes": [
+      "Additional Section Hooks",
+      "Certifications and Tools",
+      "Deloitte Workday Program",
+      "Fundaci\u00f3n Juanfe Salesforce Project",
+      "Illinois Gies Undergraduate",
+      "Languages",
+      "Product Management Skills",
+      "ServiceNow PM Internship"
+    ]
+  },
+  "linkedin-profile": {
+    "path": "raw/Source/LinkedIn Profile.md",
+    "sha256": "1d4d4129bd8c0412",
+    "ingested": "2026-09-28",
+    "model": "gemma4:e4b",
+    "notes": [
+      "Berkeley Haas MBA",
+      "Certifications and Tools",
+      "Deloitte Workday Program",
+      "Early Career Roles",
+      "Languages",
+      "ServiceNow PM Internship"
+    ]
+  }
+}

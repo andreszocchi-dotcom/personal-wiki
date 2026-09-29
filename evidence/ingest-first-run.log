@@ -1,0 +1,61 @@
+[ingest · model gemma4:e4b · execution: local · http://localhost:11434]
+> raw/Berkeley Haas Resume Standards.md
+  Gemma call 1/2 (11,390 chars of source text)
+  Gemma call 2/2 (3,520 chars of source text)
+> raw/Career Inventory.md
+  Gemma call 1/3 (10,745 chars of source text)
+  Gemma call 2/3 (11,599 chars of source text)
+  Gemma call 3/3 (1,383 chars of source text)
+> raw/Master Resume.md
+  Gemma call 1/1 (11,269 chars of source text)
+> raw/Source/LinkedIn Profile.md
+  Gemma call 1/1 (3,210 chars of source text)
+> links for raw/Berkeley Haas Resume Standards.md
+  Gemma link pass for 9 topic(s)
+> links for raw/Career Inventory.md
+  Gemma link pass for 16 topic(s)
+> links for raw/Master Resume.md
+  Gemma link pass for 5 topic(s)
+> links for raw/Source/LinkedIn Profile.md
+  Gemma link pass for 6 topic(s)
+  + created wiki/Skills/Resume Bullet Anatomy Structure.md
+  + created wiki/Skills/Resume Emphasis Order Levers.md
+  + created wiki/Skills/Resume Quality Control Checklist.md
+  + created wiki/Skills/Resume Formatting Structure Choices.md
+  + created wiki/Job Search/Tailoring Resume Content Strategy.md
+  + created wiki/Skills/Haas Skill Category Headings.md
+  + created wiki/Resume Writing/Resume Formatting Consistency.md
+  + created wiki/Skills/Generative AI Use Principles.md
+  + created wiki/Skills/Sanctioned AI Use Cases.md
+  + created wiki/Experience/ServiceNow Product Management Internship.md
+  + created wiki/Experience/Deloitte Technology Transformation Project.md
+  + created wiki/Skills/AI Product Development Workflow.md
+  + created wiki/Skills/Product Sense Storytelling.md
+  + created wiki/Education/Haas Education Credentials.md
+  + created wiki/Education/Gies College Education.md
+  + created wiki/Experience/Workday Platform Implementation.md
+  + created wiki/Experience/Client Strategy And Vision.md
+  + created wiki/Experience/Team Leadership And Mentoring.md
+  + created wiki/Experience/Salesforce Product Implementation.md
+  + created wiki/Skills/Technical Skills And Tools.md
+  + created wiki/Job Search/Career Trajectory And Gaps.md
+  + created wiki/Job Search/Big Tech Product Management Roles.md
+  + created wiki/Job Search/Healthcare Venture Capital Track.md
+  + created wiki/Job Search/Investment Banking Track Status.md
+  + created wiki/Experience/Relevant Experience Material.md
+  + created wiki/Experience/ServiceNow AI Workflow Development.md
+  ~ updated wiki/Experience/Workday Platform Implementation.md
+  + created wiki/Experience/Nonprofit Salesforce Product Leadership.md
+  + created wiki/Skills/Product Management Core Skills.md
+  + created wiki/Education/Academic Credentials And Honors.md
+  + created wiki/Education/Haas MBA Candidate Status.md
+  + created wiki/Experience/Deloitte Professional Experience.md
+  ~ updated wiki/Experience/ServiceNow Product Management Internship.md
+  + created wiki/Skills/Core Professional Skills.md
+  + created wiki/Education/Academic Background Details.md
+  + created wiki/Experience/Early Career and Volunteering.md
+Index: 76 passages from 4 sources; 34 wiki notes; index.md updated.
+
+real	21m14.824s
+user	0m0.000s
+sys	0m0.015s

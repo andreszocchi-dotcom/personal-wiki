@@ -1,0 +1,12 @@
+[ingest · model gemma4:e4b · execution: local · http://localhost:11434]
+> raw/Source/LinkedIn Profile.md
+  Gemma call 1/1 (3,210 chars of source text)
+> links for raw/Source/LinkedIn Profile.md
+  Gemma link pass for 6 topic(s)
+  = kept reviewed note wiki/Experience/ServiceNow PM Internship.md (not regenerated)
+  = kept reviewed note wiki/Experience/Deloitte Workday Program.md (not regenerated)
+  = kept reviewed note wiki/Education/Berkeley Haas MBA.md (not regenerated)
+  = kept reviewed note wiki/Skills/Languages.md (not regenerated)
+  = kept reviewed note wiki/Skills/Certifications and Tools.md (not regenerated)
+  = kept reviewed note wiki/Experience/Early Career Roles.md (not regenerated)
+Index: 76 passages from 4 sources; 19 wiki notes; index.md updated.

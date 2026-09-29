@@ -1,0 +1,85 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260928160511
+Username: ANDRESDELL14PLU\andre
+RunAs User: ANDRESDELL14PLU\andre
+Configuration Name: 
+Machine: ANDRESDELL14PLU (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File scripts\offline_demo.ps1
+Process ID: 3480
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+==================== Connectivity check (must fail while offline) ====================
+False
+
+Monday, September 28, 2026 4:05:18 PM
+
+==================== Restart Ollama (local runtime) so the CLI starts from a clean state ====================
+NAME          ID              SIZE      MODIFIED
+gemma4:e4b    c6eb396dbd59    9.6 GB    About an hour ago
+gemma4:e2b    7fbdbf8f5e45    7.2 GB    5 days ago
+
+==================== wiki status ====================
+model      gemma4:e4b
+ollama_version 0.34.3
+quantization Q4_K_M
+parameter_size 8.0B
+digest     c6eb396dbd59
+loaded     (model not currently in memory)
+passages   76 from 4 sources
+notes      19 in vault/wiki/
+internet   NOT reachable (offline)
+
+==================== wiki --help ====================
+the model pulled (`ollama pull gemma4:e4b`). search needs only an ingested index.
+
+==================== wiki ingest (re-ingest one local source; must not create duplicate notes) ====================
+[2m[ingest ┬╖ model gemma4:e4b ┬╖ execution: local ┬╖ http://localhost:11434][0m
+> raw/Source/LinkedIn Profile.md
+  Gemma call 1/1 (3,210 chars of source text)
+> links for raw/Source/LinkedIn Profile.md
+  Gemma link pass for 6 topic(s)
+  = kept reviewed note wiki/Education/Berkeley Haas MBA.md (not regenerated)
+  = kept reviewed note wiki/Experience/Deloitte Workday Program.md (not regenerated)
+  = kept reviewed note wiki/Experience/ServiceNow PM Internship.md (not regenerated)
+  + created wiki/Education/University of Illinois Education.md
+  = kept reviewed note wiki/Skills/Languages.md (not regenerated)
+  = kept reviewed note wiki/Education/Illinois Gies Undergraduate.md (not regenerated)
+Index: 76 passages from 4 sources; 20 wiki notes; index.md updated.
+
+TotalSeconds : 123.3551396
+
+notes before: 19  after: 20
+
+
+==================== wiki search (no model) ====================
+
+
+==================== wiki ask: four test questions (writes evidence\cards\test-1..4.md) ====================
+
+
+==================== Memory while loaded ====================
+
+
+Id           : 25776
+WorkingSetGB : 10.79
+
+Free RAM: 4.2 GB
+
+==================== Chat / search / ask mode checks (writes evidence\checks\mode-checks.md) ====================
+
+
+==================== Done ====================
+Monday, September 28, 2026 4:09:45 PM
+**********************
+Windows PowerShell transcript end
+End time: 20260928160945
+**********************

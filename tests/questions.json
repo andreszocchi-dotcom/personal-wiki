@@ -1,0 +1,34 @@
+[
+  {
+    "id": "test-1",
+    "kind": "Direct question, one source",
+    "question": "What are the four parts of a strong resume bullet in the Haas standards?",
+    "expected_behavior": "Names WHAT, HOW, IMPACT and WHY (the work object, the method, the result, the context), ideally noting that three out of four is enough. Cites Berkeley Haas Resume Standards.md section 1 'Bullet anatomy'.",
+    "expected_sources": ["raw/Berkeley Haas Resume Standards.md"],
+    "expected_phrases": ["WHAT", "Three out of four is great"]
+  },
+  {
+    "id": "test-2",
+    "kind": "Answerable, phrased differently from the source",
+    "question": "How accurate was the finance data move into Workday?",
+    "expected_behavior": "99.99% accurate migration of accounting data, achieved with a migration framework (requirements, Excel templates, workshops for 35+ units). The source says 'data migration' and 'accounting data', not 'finance data move', to test wording mismatch. Cites Master Resume.md (Deloitte section) and/or Career Inventory.md (Sub-track A).",
+    "expected_sources": ["raw/Master Resume.md", "raw/Career Inventory.md"],
+    "expected_phrases": ["99.99% accurate migration"]
+  },
+  {
+    "id": "test-3",
+    "kind": "Connects two sources",
+    "question": "What languages does Andrés speak, and do his resume and LinkedIn agree?",
+    "expected_behavior": "Spanish native; LinkedIn lists Italian, French and Catalan as Limited Working (plus English native), while the resume line also claims Basque and Portuguese, which LinkedIn does not list. So they do not fully agree. Cites Career Inventory.md (Skills / Languages) and LinkedIn Profile.md.",
+    "expected_sources": ["raw/Career Inventory.md", "raw/Source/LinkedIn Profile.md"],
+    "expected_phrases": ["Limited Working", "Basque"]
+  },
+  {
+    "id": "test-4",
+    "kind": "Unsupported: answer is not in the wiki",
+    "question": "What was Andrés's GPA at Berkeley Haas?",
+    "expected_behavior": "INSUFFICIENT EVIDENCE. No source states his GPA. Retrieval is expected to return the Haas standards passage that mentions GPA as an optional resume field; the model must not treat that as his GPA or guess a number.",
+    "expected_sources": [],
+    "expected_phrases": []
+  }
+]

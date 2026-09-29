@@ -1,0 +1,70 @@
+{
+  "berkeley-haas-resume-standards": {
+    "path": "raw/Berkeley Haas Resume Standards.md",
+    "sha256": "f71090e9d9eae21e",
+    "ingested": "2026-09-28",
+    "model": "gemma4:e4b",
+    "notes": [
+      "Generative AI Use Principles",
+      "Haas Skill Category Headings",
+      "Resume Bullet Anatomy Structure",
+      "Resume Emphasis Order Levers",
+      "Resume Formatting Consistency",
+      "Resume Formatting Structure Choices",
+      "Resume Quality Control Checklist",
+      "Sanctioned AI Use Cases",
+      "Tailoring Resume Content Strategy"
+    ]
+  },
+  "career-inventory": {
+    "path": "raw/Career Inventory.md",
+    "sha256": "0fb9d55a6c105bd4",
+    "ingested": "2026-09-28",
+    "model": "gemma4:e4b",
+    "notes": [
+      "AI Product Development Workflow",
+      "Big Tech Product Management Roles",
+      "Career Trajectory And Gaps",
+      "Client Strategy And Vision",
+      "Deloitte Technology Transformation Project",
+      "Gies College Education",
+      "Haas Education Credentials",
+      "Healthcare Venture Capital Track",
+      "Investment Banking Track Status",
+      "Product Sense Storytelling",
+      "Relevant Experience Material",
+      "Salesforce Product Implementation",
+      "ServiceNow Product Management Internship",
+      "Team Leadership And Mentoring",
+      "Technical Skills And Tools",
+      "Workday Platform Implementation"
+    ]
+  },
+  "master-resume": {
+    "path": "raw/Master Resume.md",
+    "sha256": "b046973754e53cdf",
+    "ingested": "2026-09-28",
+    "model": "gemma4:e4b",
+    "notes": [
+      "Academic Credentials And Honors",
+      "Nonprofit Salesforce Product Leadership",
+      "Product Management Core Skills",
+      "ServiceNow AI Workflow Development",
+      "Workday Platform Implementation"
+    ]
+  },
+  "linkedin-profile": {
+    "path": "raw/Source/LinkedIn Profile.md",
+    "sha256": "1d4d4129bd8c0412",
+    "ingested": "2026-09-28",
+    "model": "gemma4:e4b",
+    "notes": [
+      "Academic Background Details",
+      "Core Professional Skills",
+      "Deloitte Professional Experience",
+      "Early Career and Volunteering",
+      "Haas MBA Candidate Status",
+      "ServiceNow Product Management Internship"
+    ]
+  }
+}
